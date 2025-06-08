@@ -1,0 +1,17 @@
+# Node.js (frontend)
+frontend/node_modules/
+frontend/.env
+
+# Python (backend)
+backend/__pycache__/
+backend/env/
+backend/venv/
+backend/.env
+backend/settings.py
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
