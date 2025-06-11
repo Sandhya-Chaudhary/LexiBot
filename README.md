@@ -26,6 +26,7 @@ LexiBot is an AI-powered legal advisor designed to make basic legal information 
 
 ## 📁 Folder Structure
 
+
 LexiBot/
 │
 ├── frontend/ # React frontend with Vite
@@ -40,6 +41,13 @@ LexiBot/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+
+
+
+
+
+
 
 
 
