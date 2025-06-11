@@ -1,17 +1,26 @@
-# Node.js (frontend)
-frontend/node_modules/
-frontend/.env
-
-# Python (backend)
-backend/__pycache__/
-backend/env/
-backend/venv/
-backend/.env
-backend/settings.py
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
 *.log
+.env
+venv/
+
+# Node.js
+node_modules/
+.env.local
+dist/
+
+# React (Vite or CRA)
+frontend/node_modules/
+frontend/dist/
+
+# IDE/system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Sensitive config files
+**/settings.py
